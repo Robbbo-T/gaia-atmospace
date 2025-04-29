@@ -1,4 +1,4 @@
-# ✈️ GP-SAFETY-AIR – Airworthiness and Safety Systems  
+# SAFETY-AIR – Airworthiness and Safety Systems  
 ## Canonical Index (IDX.md)
 
 ---
@@ -30,14 +30,6 @@ Integra aspectos de safety engineering, risk management, compliance (EASA/FAA), 
 | CH-90  | [Safety Metrics and Analytics](./CH-90.md)    | Métricas de desempeño y análisis safety |
 | CH-99  | [Special / Experimental Safety Topics](./CH-99.md) | Nuevos enfoques y tecnologías experimentales |
 
----
-
-## 🔗 Cross-Domain Links
-
-- **[GP-COM/SEC](../GP-COM/SEC.md)** – Módulo de ciberseguridad integrada a safety.
-- **[GP-AM/ATA-04-AIRW](../GP-AM/AMPEL/ATA-04-AIRW/)** – Normativas y procesos de aeronavegabilidad aeronáutica.
-- **[GP-AS/AS-04-SAFETY](../GP-SPACEs/GP-AS/AMPELPLUS/AS-04-SAFETY/)** – Seguridad y confiabilidad en sistemas espaciales.
-- **[GP-PMO/QA](../GP-PMO/QA/)** – Aseguramiento de calidad en operaciones y programas.
 
 ---
 
