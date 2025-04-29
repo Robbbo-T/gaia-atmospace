@@ -1,27 +1,3 @@
-# GAIA PLATFORMS - Architectural Table of Contents (AToC)
-
-## GenAI Proposal Status Disclaimer
-
-*Este documento es un análisis generado por GenAI y no ha sido validado por expertos en el dominio. Los detalles de implementación son teóricos y necesitarían revisión formal y validación por especialistas en ingeniería aeroespacial, astronáutica, tecnologías sostenibles e integración de IA.*
-
-## 1. Overview
-
-Este documento proporciona la estructura de directorios completa para el ecosistema GAIA PLATFORMS, con un enfoque particular en la implementación de la convención de códigos COAFI. La estructura está organizada en divisiones principales, cada una conteniendo módulos especializados que abordan aspectos específicos de tecnologías aeroespaciales, astronáuticas y sostenibles.
-
-## 2. COAFI Code Convention
-
-### 2.1 Purpose
-
-La convención de códigos COAFI (Component-Organization-Application-Function-Identifier) proporciona una forma estandarizada de identificar y referenciar componentes dentro del ecosistema GAIA PLATFORMS. Esta convención asegura trazabilidad, consistencia y claridad en todo el proyecto.
-
-### 2.2 Format
-
-El formato general para los códigos COAFI es:
-
-```plaintext
-COAFI-[DIVISION]-[CLASS]-[COMPONENT]-[NUMBER]-[TYPE]
-### GAIA PLATFORMS Directory Structure Documentation - Updated with Hyperlinked COAFI Codes
-
 ## GenAI Proposal Status Disclaimer
 
 *Este documento es un análisis generado por GenAI y no ha sido validado por expertos en el dominio. Los detalles de implementación son teóricos y necesitarían revisión formal y validación por especialistas en ingeniería aeroespacial, astronáutica, tecnologías sostenibles e integración de IA.*
