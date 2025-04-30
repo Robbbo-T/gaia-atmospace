@@ -1,12 +1,15 @@
 ---
-**Title:** Industrial Hybrid Business Intelligence (IHBI) – Federated Assessment & Capitalization Model  
-**Codename:** GP-FD-BIT-IHBI-001-OV-A  
-**Author:** Amedeo Pelliccia  
-**Status:** Capitalization Draft v0.1  
-**Part:** GP-FD-BIT – Business & Industrial Transformation  
-**InfoCodes:** OV, SPEC, NEXUS, KPI  
-**Signed On:** 2025-04-30
-
+title: Industrial Hybrid Business Intelligence (IHBI)
+codename: GP-FD-BIT-IHBI-001-OV-A
+author: Amedeo Pelliccia
+status: Capitalization Draft v0.1
+part: GP-FD-BIT – Business & Industrial Transformation
+infocodes:
+  - OV
+  - SPEC
+  - NEXUS
+  - KPI
+signed_on: 2025-04-30
 ---
 
 ## I. Executive Summary
@@ -78,3 +81,4 @@ This architecture is **suitable for capitalization** as:
 ---
 **Signed by:** Amedeo Pelliccia  
 **As doctrinal and capitalization milestone of the GAIA AIR Federated Intelligence Ecosystem.**
+
