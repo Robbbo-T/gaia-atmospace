@@ -1,6 +1,4 @@
 ---
-# GP-FD-BIT/IHBI.md
-
 **Title:** Industrial Hybrid Business Intelligence (IHBI) – Federated Assessment & Capitalization Model  
 **Codename:** GP-FD-BIT-IHBI-001-OV-A  
 **Author:** Amedeo Pelliccia  
