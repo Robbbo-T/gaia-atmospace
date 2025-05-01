@@ -107,6 +107,6 @@ Status=🟠 Alpha Filename=`README.md` Version=0.2 InfoCode=COAFI-00-00-UN
 ---
 
 Next Generation:
-1) `GP-SABIA-001.ampel` CHATGPT
-2) `Doctrine-GAIA-ATMOSPACE.md` PERPLEXITY
+1) `GP-SABIA-001.ampel` Action is on CHATGPT
+2) `Doctrine-GAIA-ATMOSPACE.md` Action is on PERPLEXITY
 
