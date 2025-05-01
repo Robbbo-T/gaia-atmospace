@@ -1,6 +1,7 @@
-# GAIA-QAO - The Unified Aerospace Vanguard Nexus
+# GAIA-QAO - The Unified Aerospace Vanguard Protocol
 
-*Orchestrating identity, ethics, and operational intelligence across **Air ✈️ · Space 🛰️ · Greentech 🌱.***
+"""
+*
 
 ---
 
@@ -19,7 +20,7 @@ Each MFC code follows this structure:
 - Uppercase letters and underscores only
 - Prefix indicates lifecycle phase
 - Suffix indicates specific milestone or baseline
-- Format: `PHASE_MILESTONE`
+- Format: PHASE_MILESTONE
 
 
 ## 3. Controlled Vocabulary by Lifecycle Phase
@@ -28,111 +29,111 @@ Each MFC code follows this structure:
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `CON_REQT` | Requirements Baseline | Initial requirements documentation
-| `CON_ARCH` | Architecture Baseline | System architecture definition
-| `CON_PDR` | Preliminary Design Review | Documentation approved at PDR
-| `CON_CDR` | Critical Design Review | Documentation approved at CDR
-| `CON_FREEZE_A` | Design Freeze Alpha | First formal design baseline
-| `CON_FREEZE_B` | Design Freeze Beta | Second formal design baseline
-| `CON_FREEZE_F` | Design Freeze Final | Final design baseline before implementation
+| CON_REQT | Requirements Baseline | Initial requirements documentation
+| CON_ARCH | Architecture Baseline | System architecture definition
+| CON_PDR | Preliminary Design Review | Documentation approved at PDR
+| CON_CDR | Critical Design Review | Documentation approved at CDR
+| CON_FREEZE_A | Design Freeze Alpha | First formal design baseline
+| CON_FREEZE_B | Design Freeze Beta | Second formal design baseline
+| CON_FREEZE_F | Design Freeze Final | Final design baseline before implementation
 
 
 ### 3.2 Development Phase (DEV_)
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `DEV_PROTO_A` | Prototype Alpha | First prototype documentation
-| `DEV_PROTO_B` | Prototype Beta | Refined prototype documentation
-| `DEV_IMPL_A` | Implementation Alpha | Initial implementation documentation
-| `DEV_IMPL_B` | Implementation Beta | Refined implementation documentation
-| `DEV_IMPL_F` | Implementation Final | Final implementation documentation
-| `DEV_INT_A` | Integration Alpha | Initial integration documentation
-| `DEV_INT_F` | Integration Final | Final integration documentation
-| `DEV_TRR` | Test Readiness Review | Documentation approved at TRR
+| DEV_PROTO_A | Prototype Alpha | First prototype documentation
+| DEV_PROTO_B | Prototype Beta | Refined prototype documentation
+| DEV_IMPL_A | Implementation Alpha | Initial implementation documentation
+| DEV_IMPL_B | Implementation Beta | Refined implementation documentation
+| DEV_IMPL_F | Implementation Final | Final implementation documentation
+| DEV_INT_A | Integration Alpha | Initial integration documentation
+| DEV_INT_F | Integration Final | Final integration documentation
+| DEV_TRR | Test Readiness Review | Documentation approved at TRR
 
 
 ### 3.3 Testing Phase (TEST_)
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `TEST_UNIT` | Unit Testing | Unit test documentation
-| `TEST_INT` | Integration Testing | Integration test documentation
-| `TEST_SYS` | System Testing | System test documentation
-| `TEST_ENV` | Environmental Testing | Environmental test documentation
-| `TEST_PERF` | Performance Testing | Performance test documentation
-| `TEST_SAFE` | Safety Testing | Safety test documentation
-| `TEST_QUAL` | Qualification Testing | Qualification test documentation
-| `TEST_ACCEPT` | Acceptance Testing | Acceptance test documentation
+| TEST_UNIT | Unit Testing | Unit test documentation
+| TEST_INT | Integration Testing | Integration test documentation
+| TEST_SYS | System Testing | System test documentation
+| TEST_ENV | Environmental Testing | Environmental test documentation
+| TEST_PERF | Performance Testing | Performance test documentation
+| TEST_SAFE | Safety Testing | Safety test documentation
+| TEST_QUAL | Qualification Testing | Qualification test documentation
+| TEST_ACCEPT | Acceptance Testing | Acceptance test documentation
 
 
 ### 3.4 Certification Phase (CERT_)
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `CERT_PLAN` | Certification Planning | Certification planning documentation
-| `CERT_SUBMIT` | Certification Submittal | Documentation submitted for certification
-| `CERT_REVIEW` | Certification Review | Documentation under certification review
-| `CERT_COMPLY` | Certification Compliance | Documentation demonstrating compliance
-| `CERT_FINAL` | Certification Final | Final certified documentation
-| `CERT_TYPE` | Type Certification | Type certification documentation
-| `CERT_PROD` | Production Certification | Production certification documentation
-| `CERT_AIRW` | Airworthiness Certification | Airworthiness certification documentation
+| CERT_PLAN | Certification Planning | Certification planning documentation
+| CERT_SUBMIT | Certification Submittal | Documentation submitted for certification
+| CERT_REVIEW | Certification Review | Documentation under certification review
+| CERT_COMPLY | Certification Compliance | Documentation demonstrating compliance
+| CERT_FINAL | Certification Final | Final certified documentation
+| CERT_TYPE | Type Certification | Type certification documentation
+| CERT_PROD | Production Certification | Production certification documentation
+| CERT_AIRW | Airworthiness Certification | Airworthiness certification documentation
 
 
 ### 3.5 Production Phase (PROD_)
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `PROD_TOOL` | Production Tooling | Tooling documentation
-| `PROD_PROC` | Production Processes | Manufacturing process documentation
-| `PROD_QA` | Quality Assurance | QA documentation
-| `PROD_FIRST` | First Article | First article inspection documentation
-| `PROD_BATCH` | Batch Production | Batch production documentation
-| `PROD_MOD_A` | Production Modification Alpha | Initial production modification
-| `PROD_MOD_B` | Production Modification Beta | Secondary production modification
-| `PROD_MOD_F` | Production Modification Final | Final production modification
+| PROD_TOOL | Production Tooling | Tooling documentation
+| PROD_PROC | Production Processes | Manufacturing process documentation
+| PROD_QA | Quality Assurance | QA documentation
+| PROD_FIRST | First Article | First article inspection documentation
+| PROD_BATCH | Batch Production | Batch production documentation
+| PROD_MOD_A | Production Modification Alpha | Initial production modification
+| PROD_MOD_B | Production Modification Beta | Secondary production modification
+| PROD_MOD_F | Production Modification Final | Final production modification
 
 
 ### 3.6 Operational Phase (OPS_)
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `OPS_DEPLOY` | Initial Deployment | Initial deployment documentation
-| `OPS_BASE_A` | Operational Baseline Alpha | First operational baseline
-| `OPS_BASE_B` | Operational Baseline Beta | Second operational baseline
-| `OPS_BASE_F` | Operational Baseline Final | Final operational baseline
-| `OPS_CONFIG_A` | Configuration Alpha | First operational configuration
-| `OPS_CONFIG_B` | Configuration Beta | Second operational configuration
-| `OPS_CONFIG_F` | Configuration Final | Final operational configuration
-| `OPS_UPDATE` | Operational Update | Operational update documentation
+| OPS_DEPLOY | Initial Deployment | Initial deployment documentation
+| OPS_BASE_A | Operational Baseline Alpha | First operational baseline
+| OPS_BASE_B | Operational Baseline Beta | Second operational baseline
+| OPS_BASE_F | Operational Baseline Final | Final operational baseline
+| OPS_CONFIG_A | Configuration Alpha | First operational configuration
+| OPS_CONFIG_B | Configuration Beta | Second operational configuration
+| OPS_CONFIG_F | Configuration Final | Final operational configuration
+| OPS_UPDATE | Operational Update | Operational update documentation
 
 
 ### 3.7 Maintenance Phase (MAINT_)
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `MAINT_PLAN` | Maintenance Planning | Maintenance planning documentation
-| `MAINT_SCHED` | Scheduled Maintenance | Scheduled maintenance documentation
-| `MAINT_UNSCHED` | Unscheduled Maintenance | Unscheduled maintenance documentation
-| `MAINT_PROC_A` | Maintenance Procedure Alpha | Initial maintenance procedure
-| `MAINT_PROC_V` | Maintenance Procedure Validated | Validated maintenance procedure
-| `MAINT_PROC_F` | Maintenance Procedure Final | Final maintenance procedure
-| `MAINT_SB` | Service Bulletin | Service bulletin documentation
-| `MAINT_MOD` | Modification | Modification documentation
+| MAINT_PLAN | Maintenance Planning | Maintenance planning documentation
+| MAINT_SCHED | Scheduled Maintenance | Scheduled maintenance documentation
+| MAINT_UNSCHED | Unscheduled Maintenance | Unscheduled maintenance documentation
+| MAINT_PROC_A | Maintenance Procedure Alpha | Initial maintenance procedure
+| MAINT_PROC_V | Maintenance Procedure Validated | Validated maintenance procedure
+| MAINT_PROC_F | Maintenance Procedure Final | Final maintenance procedure
+| MAINT_SB | Service Bulletin | Service bulletin documentation
+| MAINT_MOD | Modification | Modification documentation
 
 
 ### 3.8 Retirement & Disposal Phase (EOL_)
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `EOL_PLAN` | End-of-Life Planning | EOL planning documentation
-| `EOL_DECOM` | Decommissioning | Decommissioning documentation
-| `EOL_DISASM` | Disassembly | Disassembly documentation
-| `EOL_RECYCLE` | Recycling | Recycling documentation
-| `EOL_DISPOSE` | Disposal | Disposal documentation
-| `EOL_ARCHIVE` | Archiving | Archiving documentation
-| `EOL_LEGACY` | Legacy Support | Legacy support documentation
-| `EOL_HIST` | Historical Record | Historical record documentation
+| EOL_PLAN | End-of-Life Planning | EOL planning documentation
+| EOL_DECOM | Decommissioning | Decommissioning documentation
+| EOL_DISASM | Disassembly | Disassembly documentation
+| EOL_RECYCLE | Recycling | Recycling documentation
+| EOL_DISPOSE | Disposal | Disposal documentation
+| EOL_ARCHIVE | Archiving | Archiving documentation
+| EOL_LEGACY | Legacy Support | Legacy support documentation
+| EOL_HIST | Historical Record | Historical record documentation
 
 
 ## 4. Domain-Specific MFC Codes
@@ -141,44 +142,44 @@ Each MFC code follows this structure:
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `AIR_FLIGHT_TEST` | Flight Testing | Flight test documentation
-| `AIR_ETOPS` | ETOPS Certification | ETOPS certification documentation
-| `AIR_RVSM` | RVSM Certification | RVSM certification documentation
-| `AIR_MEL` | Minimum Equipment List | MEL documentation
-| `AIR_AD` | Airworthiness Directive | AD documentation
+| AIR_FLIGHT_TEST | Flight Testing | Flight test documentation
+| AIR_ETOPS | ETOPS Certification | ETOPS certification documentation
+| AIR_RVSM | RVSM Certification | RVSM certification documentation
+| AIR_MEL | Minimum Equipment List | MEL documentation
+| AIR_AD | Airworthiness Directive | AD documentation
 
 
 ### 4.2 SPACE Domain Specific
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `SPACE_LAUNCH_QUAL` | Launch Qualification | Launch qualification documentation
-| `SPACE_FRR` | Flight Readiness Review | FRR documentation
-| `SPACE_MISSION_A` | Mission Phase Alpha | Initial mission phase documentation
-| `SPACE_MISSION_B` | Mission Phase Beta | Secondary mission phase documentation
-| `SPACE_EOL` | End-of-Life Operations | Space system EOL documentation
+| SPACE_LAUNCH_QUAL | Launch Qualification | Launch qualification documentation
+| SPACE_FRR | Flight Readiness Review | FRR documentation
+| SPACE_MISSION_A | Mission Phase Alpha | Initial mission phase documentation
+| SPACE_MISSION_B | Mission Phase Beta | Secondary mission phase documentation
+| SPACE_EOL | End-of-Life Operations | Space system EOL documentation
 
 
 ### 4.3 GREENTECH Domain Specific
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `GREEN_IMPACT` | Environmental Impact | Environmental impact documentation
-| `GREEN_CARBON` | Carbon Assessment | Carbon assessment documentation
-| `GREEN_LIFECYCLE` | Lifecycle Assessment | Lifecycle assessment documentation
-| `GREEN_SUSTAIN` | Sustainability Review | Sustainability review documentation
-| `GREEN_CIRCULAR` | Circular Economy | Circular economy documentation
+| GREEN_IMPACT | Environmental Impact | Environmental impact documentation
+| GREEN_CARBON | Carbon Assessment | Carbon assessment documentation
+| GREEN_LIFECYCLE | Lifecycle Assessment | Lifecycle assessment documentation
+| GREEN_SUSTAIN | Sustainability Review | Sustainability review documentation
+| GREEN_CIRCULAR | Circular Economy | Circular economy documentation
 
 
 ## 5. Cross-Domain MFC Codes
 
 | MFC Code | Description | Typical Usage
 |-----|-----|-----
-| `X_BASELINE` | Cross-Domain Baseline | Baseline applicable across domains
-| `X_STANDARD` | Standardization | Documentation of standardized components
-| `X_INTERFACE` | Interface Control | Interface control documentation
-| `X_SAFETY` | Safety Critical | Safety critical documentation
-| `X_SECURITY` | Security Critical | Security critical documentation
+| X_BASELINE | Cross-Domain Baseline | Baseline applicable across domains
+| X_STANDARD | Standardization | Documentation of standardized components
+| X_INTERFACE | Interface Control | Interface control documentation
+| X_SAFETY | Safety Critical | Safety critical documentation
+| X_SECURITY | Security Critical | Security critical documentation
 
 
 ## 6. Implementation Guidelines
@@ -196,11 +197,11 @@ Each MFC code follows this structure:
 
 | Filename | Description
 |-----|-----|-----
-| `CON_FREEZE_B_AMPEL_27-20-15_RUDDER_ACTUATOR_SPEC_A.md` | Rudder actuator specification at Design Freeze Beta
-| `MAINT_PROC_V_AMPEL_24-60-10_PMSC_REMOVAL_PROC_C.xml` | Validated maintenance procedure for PMSC removal
-| `CERT_AIRW_FW-CT-LCA_53-10-00_NOSE_RADOME_CERT_B.pdf` | Airworthiness certification for commercial transport aircraft nose radome
-| `TEST_ENV_GP-SS_05-10-20_SOLAR_ARRAY_TST_001.yaml` | Environmental test documentation for space system solar array
-| `GREEN_LIFECYCLE_RE-WE_01-20-30_TURBINE_BLADE_LCA_A.xml` | Lifecycle assessment for wind turbine blade
+| CON_FREEZE_B_AMPEL_27-20-15_RUDDER_ACTUATOR_SPEC_A.md | Rudder actuator specification at Design Freeze Beta
+| MAINT_PROC_V_AMPEL_24-60-10_PMSC_REMOVAL_PROC_C.xml | Validated maintenance procedure for PMSC removal
+| CERT_AIRW_FW-CT-LCA_53-10-00_NOSE_RADOME_CERT_B.pdf | Airworthiness certification for commercial transport aircraft nose radome
+| TEST_ENV_GP-SS_05-10-20_SOLAR_ARRAY_TST_001.yaml | Environmental test documentation for space system solar array
+| GREEN_LIFECYCLE_RE-WE_01-20-30_TURBINE_BLADE_LCA_A.xml | Lifecycle assessment for wind turbine blade
 
 
 ### 6.3 Validation Rules
@@ -218,7 +219,7 @@ Each MFC code follows this structure:
 3. MFC codes may be deprecated but should never be removed
 4. Annual review of the MFC controlled vocabulary will be conducted
 
-#!/usr/bin/env python3
+validate_filenames.py
 """
 GAIA Platforms Filename Validator (Enhanced)
 
@@ -571,5 +572,7 @@ if __name__ == "__main__":
     main()
 ---
 
-*Document ID: X_STANDARD_GP-DOC_00-00-00_MFC_VOCABULARY_A.md**Last Updated: 2025-05-01*
+*Document ID: GAIA_PROTOCOL_GP-DOC_00-00-00_MFC_VOCABULARY_A.md**Last Updated: 2025-05-01*
+"""
+
 
